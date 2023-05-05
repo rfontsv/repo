@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+    id="skin.aura.rik"
+    version="1.0.1"
+    name="[COLOR White]Aura [COLOR azure][B]Rik [COLOR lime]MATRIX[COLOR azure]|[COLOR dodgerblue]NEXUS[/B][/COLOR]"
+    provider-name="jurialmunkey, ProtoType, Rik Team">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="1.1.4" />
+		<import addon="script.module.kodi65" version="1.2.1+matrix.3"/>
+        <import addon="script.extendedinfo" version="5.6.0+matrix.3" />
+        <import addon="script.image.resource.select" version="3.0.2" />
+        <import addon="resource.images.studios.white" version="0.0.25" />
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+	    <summary lang="es_ES">Minimalista. Personalizable. Múltiples Widgets. Modificado Como a mi me Gusta!</summary>
+        <summary lang="en_GB">Minimalistic. Customizable. Multiple Widgets. Modified To How I Like It!</summary>
+		<description lang="es_ES">Project Aura es mi primer intento en algo relacionado con el desarrollo de Kodi. De todas las máscaras que probé, Aura era todo lo que quería. Cuando me enteré de que Matrix no era compatible, ¡decidí hacerlo yo mismo! He hecho algunos ajustes aquí y allá, pero la mayoría de la piel es exactamente como la diseñó jurialmunkey. Se merece todo el crédito del mundo. Aura es un skin altamente personalizable con múltiples widgets y un menú de inicio horizontal. Aura combina el minimalismo y los bordes redondeados de Arctic Zephyr con la personalización elegante de Horizon. Aura se ha diseñado para los usuarios de mouse y los usuarios del modo táctil.</description>
+        <description lang="en_GB">Project Aura is my first attempt at anything to do with Kodi skinning. Out of all the skins I've tried, Aura was everything I wanted. When I learned there was no Matrix support, I decided to make it myself! I have made a few tweaks here and there, but the majority of the skin is exactly as jurialmunkey designed it. He deserves all the credit in the world.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <source>https://github.com/ProtoTypeRepo/skin.project.aura</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
